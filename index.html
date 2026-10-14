@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Arjun Y. – Technical Trainer & Developer</title>
+<meta name="description" content="Arjun Y. is a Technical Trainer teaching IT fundamentals, networking, web development, Python and AI. Learn. Build. Teach.">
+<meta name="theme-color" content="#820607">
+<link rel="icon" href="public/avatar-about.webp" type="image/webp">
+<link rel="preload" as="image" href="public/frames/4.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="bg" aria-hidden="true"></div>
+
+<div id="cursor-dot" aria-hidden="true"></div>
+<div id="cursor-ring" aria-hidden="true"></div>
+
+<header class="nav-wrap">
+  <nav class="nav" aria-label="Main">
+    <a href="#work">[WORK]</a>
+    <a href="#about">[ABOUT]</a>
+    <a href="#contact">[CONTACT]</a>
+  </nav>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <canvas id="stage" aria-label="Animated avatar of Arjun that follows your cursor" role="img"></canvas>
+    <div class="loader" id="loader">Loading</div>
+
+    <div class="hero-copy">
+      <p class="hi">Hi, I'm</p>
+      <h1 class="name">Arjun Y.</h1>
+      <p class="bio">
+        Technical Trainer. I teach IT fundamentals, networking, web development, Python and AI 
+        through hands-on practice, while documenting my journey in tech and digital growth.
+      </p>
+      <div class="cta">
+        <a class="btn btn-solid" href="resume.pdf" download>
+          Resume
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        </a>
+        <a class="btn btn-glass" href="#contact">Let's Talk</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="wrap about-grid">
+      <figure class="portrait">
+        <img src="public/avatar-about.webp" alt="Illustrated portrait of Arjun" width="1160" height="1032" loading="lazy">
+      </figure>
+      <div class="about-text">
+        <h2>About Me — Arjun Y.</h2>
+        <p class="lead">I’m Arjun, a B.Tech graduate in Artificial Intelligence and Data Science, passionate about technology, teaching, and digital growth.</p>
+        <p>I’m building my skills in IT Fundamentals, Technical Support & Troubleshooting, Networking, Web Development, Python Programming, and Artificial Intelligence. Alongside technology, I’m learning Digital Marketing and Affiliate Marketing to understand online branding, content creation, audience growth, and how to build income opportunities through digital platforms.</p>
+        <p>My goal is to become a skilled Technical Trainer, simplify complex technical concepts for beginners, and help students, freshers, and job seekers develop practical skills.</p>
+        <p>I’m documenting my journey from learning the basics to building real-world projects, creating educational content, and growing my personal brand.</p>
+        <p style="color: var(--accent-light); font-weight: 700; margin-top: 2rem;">My mission: Learn continuously, build practically, teach simply, and grow together.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section skills" id="skills">
+    <div class="wrap">
+      <h2>Skills</h2>
+      <div class="skill-groups">
+        <div class="skill-group">
+          <h3>IT Foundations</h3>
+          <ul class="chips">
+            <li>IT Fundamentals</li>
+            <li>Tech Support</li>
+            <li>Troubleshooting</li>
+            <li>Networking</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Web & Digital</h3>
+          <ul class="chips">
+            <li>HTML/CSS/JS</li>
+            <li>Web Development</li>
+            <li>Digital Marketing</li>
+            <li>Affiliate Marketing</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Code & AI</h3>
+          <ul class="chips">
+            <li>Python</li>
+            <li>Artificial Intelligence</li>
+            <li>Oracle Cloud AI Foundations</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section projects" id="work">
+    <div class="wrap">
+      <h2>Projects</h2>
+      <div class="project-list">
+        
+        <!-- Project 1 -->
+        <a class="project" href="#" data-todo="link to repo or live demo">
+          <h3>1. Portfolio Website</h3>
+          <p>A custom-built, responsive portfolio designed to showcase my technical journey, projects, and educational content. Features interactive elements built without heavy frameworks.</p>
+          <span class="tags">HTML · CSS · JavaScript</span>
+        </a>
+
+        <!-- Project 2 -->
+        <a class="project" href="#" data-todo="link to repo or live demo">
+          <h3>2. Beginner Tech Support Chatbot</h3>
+          <p>An interactive Python-based bot designed to help non-technical users troubleshoot common IT and networking issues through step-by-step logic.</p>
+          <span class="tags">Python · Logic Building</span>
+        </a>
+
+        <!-- Project 3 -->
+        <a class="project" href="#" data-todo="link to repo or live demo">
+          <h3>3. Voice-to-Task Converter</h3>
+          <p>An AI and automation tool that listens to spoken commands, transcribes the audio, and automatically structures it into an organized, actionable task list.</p>
+          <span class="tags">Python · AI · Automation</span>
+        </a>
+
+        <!-- Project 4 -->
+        <a class="project" href="#" data-todo="link to repo or live demo">
+          <h3>4. Affiliate Product Comparison Tool</h3>
+          <p>A web-based tool that aggregates and compares technical products (like software or hardware), helping users make informed buying decisions while integrating affiliate revenue streams.</p>
+          <span class="tags">Web Dev · Digital Marketing</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LEARNING JOURNEY -->
+  <section class="section journey" id="journey">
+    <div class="wrap">
+      <h2>Learning & Teaching Journey</h2>
+      <ol class="steps">
+        <li><strong>IT Fundamentals & Troubleshooting</strong><span>Mastering hardware, operating systems, and resolving technical bottlenecks.</span></li>
+        <li><strong>Technical Training</strong><span>Gaining practical experience teaching technical concepts to students, drawing from initiatives like the Naan Mudhalvan scheme.</span></li>
+        <li><strong>Web Development & Marketing</strong><span>Connecting digital marketing strategies with HTML, CSS, and JS web builds.</span></li>
+        <li><strong>Python & Automation</strong><span>Creating scripts and small tools that solve real-world support and productivity problems.</span></li>
+        <li><strong>AI & Data</strong><span>Exploring models, voice-to-text integration, and practical artificial intelligence.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- YOUTUBE -->
+  <section class="section youtube" id="youtube">
+    <div class="wrap yt-grid">
+      <div>
+        <h2>On YouTube</h2>
+        <p class="lead">Documenting the journey: tutorials on tech, Python, and digital growth for beginners.</p>
+        <a class="btn btn-solid" href="#" data-todo="your YouTube channel URL">Watch the channel
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="wrap">
+      <h2>Let's talk</h2>
+      <p class="lead">Want a technical trainer for a workshop, or want to collaborate on a digital project? Send a message.</p>
+      <div class="cta">
+        <a class="btn btn-solid" href="mailto:hello@example.com" data-todo="your email">Email me
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        </a>
+        <a class="btn btn-glass" href="#" data-todo="LinkedIn URL">LinkedIn</a>
+        <a class="btn btn-glass" href="#" data-todo="Instagram URL">Instagram</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <span>Arjun Y. — Learn. Build. Teach.</span>
+    <a href="#top">Back to top</a>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
